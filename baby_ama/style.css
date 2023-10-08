@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* how to center a div */
+.hero-section {
+    height: 80vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.hero-text {
+    padding: 2rem;
+}
+
+.hero-text h1 {
+    width: 60%;
+    line-height: 5rem;
+    font-size: 3.5rem;
+}
+
+.hero-text p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.hero-text button {
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    background-color: pink;
+    font-size: 1.3rem;
+}
